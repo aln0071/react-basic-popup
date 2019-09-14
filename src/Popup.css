@@ -1,0 +1,75 @@
+.success-button {
+    color: #fff !important;
+    background-color: #5cb85c !important;
+    border-color: #4cae4c !important;
+    border-radius: 5px;
+}
+
+.success-button:hover {
+    color: #fff !important;
+    background-color: #449d44 !important;
+    border-color: #398439 !important;
+}
+
+.danger-button {
+    color: #fff !important;
+    background-color: #d9534f !important;
+    border-color: #d43f3a !important;
+    border-radius: 5px;
+}
+
+.danger-button:hover {
+    color: #fff !important;
+    background-color: #c9302c !important;
+    border-color: #ac2925 !important;
+}
+
+.popup-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.popup {
+  position: relative;
+  margin: auto;
+  margin-top: 50vh;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 20px;
+  background-color: #fefefe;
+  border: 1px solid #888;
+  width: fit-content;
+  width: -moz-fit-content;
+  border-radius: 3px;
+}
+
+.popup-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.popup-body {
+  margin-bottom: 10px;
+}
+
+.popup-buttons {
+  text-align: center;
+}
+
+.popup-buttons>:first-child {
+  margin-right: 10px;
+}
+
+.popup-buttons>:not(:first-child):not(:last-child) {
+  margin-right: 10px;
+}
+
+.popup-footer {
+  margin-top: 10px;
+}

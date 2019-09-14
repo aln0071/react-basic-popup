@@ -1,0 +1,51 @@
+{
+  "name": "react-basic-popup",
+  "version": "1.0.0",
+  "description": "A basic react popup",
+  "main": "build/index.js",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^2.6.1"
+  },
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "react": "^15.5.4"
+    "react-dom": "^16.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aln0071/react-basic-popup.git"
+  },
+  "keywords": [
+    "react",
+    "basic",
+    "popup",
+    "simple"
+  ],
+  "author": {
+    "name": "Alan Kuriakose",
+    "email": "aln0071@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aln0071/react-basic-popup/issues"
+  },
+  "homepage": "https://github.com/aln0071/react-basic-popup#readme"
+}
